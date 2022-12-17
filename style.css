@@ -1,0 +1,97 @@
+body {
+  background-color: #e9e1b7;
+  color: #575F7D;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+@media (min-width: 960px) {
+  /* For a screen > 960px, this CSS will be read */
+  .container {
+    width: 800px;
+  }
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+.container {
+  margin: 40px auto;
+}
+
+.card {
+  background-color: #f6f0d8;
+  padding: 20px;
+  margin: 50px 10px 50px 10px;
+  text-align: center;
+  overflow: hidden;
+}
+
+h1 {
+  color: #262626;
+  font-size: 32px;
+  line-height: 1.8  ;
+}
+
+h3 {
+  color: #4a4a4a;
+  font-size: 20px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.button {
+  background-color: #377049; /* Green */
+  border: none;
+  color: #FFF;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 5px;
+}
+
+.fab.fa-github-square {
+color: black
+}
+
+.fa-brands.fa-linkedin {
+  color: #0A66C2;
+  }
